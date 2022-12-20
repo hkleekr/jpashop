@@ -7,18 +7,18 @@ public class Member {
 
     @Id @GeneratedValue
     @Column(name = "MEMBER_ID")
-    private Long Id;
+    private Long id;
     private String name;
     private String city;
     private String street;
     private String zipcode;
 
     public Long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Long id) {
-        Id = id;
+        id = id;
     }
 
     public String getName() {
